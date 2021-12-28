@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
@@ -9,5 +10,7 @@
     "strict": true,
     "skipLibCheck": true,
     "declaration": true
-  }
+  },
+  "include": ["src/**/*", "demo/**/*"],
+  "exclude": ["lib", "node_modules"]
 }
