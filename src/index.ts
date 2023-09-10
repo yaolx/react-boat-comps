@@ -1,2 +1,4 @@
-export { default as Button } from './Button'
-export { default as Dialog } from './Dialog'
+import Foo from './foo'
+import Header from './header'
+
+export { Foo, Header }

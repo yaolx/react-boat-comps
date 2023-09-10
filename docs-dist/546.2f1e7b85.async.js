@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_boat_comps=self.webpackChunkreact_boat_comps||[]).push([[546],{68546:function(r,t,o){o.r(t),o.d(t,{Foo:function(){return s}});var a=o(79685),n=o(63342),c=function(u){return(0,n.jsx)("h4",{children:u.title})},s=c}}]);
