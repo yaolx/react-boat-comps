@@ -1,7 +1,6 @@
 {
   "name": "react-boat-comps",
-  "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/react-components.umd.js",
   "module": "./dist/react-components.es.js",
@@ -12,6 +11,9 @@
       "require": "./dist/react-components.umd.js"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -44,6 +46,7 @@
     "eslint-plugin-storybook": "^0.6.13",
     "storybook": "^7.4.0",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-libcss": "^1.1.1"
   }
 }
